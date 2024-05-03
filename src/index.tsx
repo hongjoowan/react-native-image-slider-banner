@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react'
-import { View, Image, Dimensions, Modal, StyleSheet, Animated, Platform, TouchableOpacity, ImageSourcePropType } from 'react-native'
+import { View, Image, Dimensions, Modal, StyleSheet, Animated, Platform, TouchableOpacity, ImageSourcePropType,Pressable } from 'react-native'
 import Icon from 'react-native-vector-icons/Ionicons'
 import { PropsTypes } from './PropsTypes'
 
