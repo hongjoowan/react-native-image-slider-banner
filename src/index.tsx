@@ -208,8 +208,7 @@ export const ImageSlider = ({
                     return (
                         <View style={[caroselImageContainerStyle]}>
                             <>
-                                <TouchableOpacity
-                                    activeOpacity={.9}
+                                <Pressable
                                     onPress={() => {
                                         if (!preview) {
                                             onClick(item, index)
@@ -224,7 +223,7 @@ export const ImageSlider = ({
                                         source={localImg ? item.img : { uri: item.img }}
                                         style={[styles.caroselImageStyle, caroselImageStyle,]}
                                     />
-                                </TouchableOpacity>
+                                </Pressable>
                                 {children}
                             </>
                         </View>
